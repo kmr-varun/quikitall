@@ -56,7 +56,7 @@ body {
 
 .content-main {
 	text-align: center;
-	margin-top: 160px;
+	margin-top: 260px;
 	padding: 20px;
 	/* background-color: red; */
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .image-container {
-	margin-top: 240px;
+	margin-top: 340px;
 	margin-left: 50px;
 	margin-right: 50px;
 	height: 700px;
@@ -185,7 +185,7 @@ body {
 }
 
 .contact-container {
-	height: 64vh;
+	height: 530px;
 	width: 100vw;
 	/* background: linear-gradient(180deg, #DBDBDB 12.35%, #AAB1BA 100%); */
 	/* background-color: #000; */

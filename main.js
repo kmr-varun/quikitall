@@ -12,6 +12,19 @@ function raf(time) {
 
 requestAnimationFrame(raf)
 
+function openFullscreen() {
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen();
+    } else if (document.documentElement.webkitRequestFullscreen) { // For Safari
+      document.documentElement.webkitRequestFullscreen();
+    } else if (document.documentElement.mozRequestFullScreen) { // For Firefox
+      document.documentElement.mozRequestFullScreen();
+    } else if (document.documentElement.msRequestFullscreen) { // For IE/Edge
+      document.documentElement.msRequestFullscreen();
+    }
+  }
+  
+
 // let tl4 = gsap.timeline({
 //     scrollTrigger: {
 //         trigger: ".part-4",
@@ -123,31 +136,31 @@ var clickCount = 0;
 function changeText() {
     
     if(clickCount == 0) {
-        document.getElementById("textcnt").style.marginTop = '0%'; 
+        document.getElementById("textcnt").style.marginTop = '2%'; 
         clickCount++;
     }
     else if(clickCount == 1) {
-        document.getElementById("textcnt").style.marginTop = '-35%';
+        document.getElementById("textcnt").style.marginTop = '-36%';
         clickCount++;
     }
     else if(clickCount == 2) {
-        document.getElementById("textcnt").style.marginTop = '-70%';
+        document.getElementById("textcnt").style.marginTop = '-74%';
         clickCount++;
     }
     else if(clickCount == 3) {
-        document.getElementById("textcnt").style.marginTop = '-105%';
+        document.getElementById("textcnt").style.marginTop = '-112%';
         clickCount++;
     }
     else if(clickCount == 4) {
-        document.getElementById("textcnt").style.marginTop = '-140%';
+        document.getElementById("textcnt").style.marginTop = '-150%';
         clickCount++;
     }
     else if(clickCount == 5) {
-        document.getElementById("textcnt").style.marginTop = '-175%';
+        document.getElementById("textcnt").style.marginTop = '-188%';
         clickCount++;
     }
     else if(clickCount == 6) {
-        document.getElementById("textcnt").style.marginTop = '-210%';
+        document.getElementById("textcnt").style.marginTop = '-226%';
         clickCount++;
     }
     // else {
@@ -156,6 +169,8 @@ function changeText() {
     // }
     
 }
+
+
 
 
 // const lenis = new Lenis({
@@ -195,6 +210,7 @@ const videoPopup = document.getElementById('video-popup');
 const video = document.getElementById('popup-video');
 
 function openPopup() {
+    openFullscreen();
     videoPopup.style.display = 'flex';
 }
 
