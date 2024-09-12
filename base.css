@@ -83,6 +83,8 @@ body {
 
 .image-container {
 	margin-top: 240px;
+	margin-left: 50px;
+	margin-right: 50px;
 	height: 700px;
 	display: flex;
 	justify-content: center;
@@ -146,6 +148,8 @@ body {
 	/* background-color: red; */
 }
 
+
+
 .rght-part-4 {
 	display: flex;
 	flex-direction: column;
@@ -153,15 +157,18 @@ body {
 	gap: 40vh;
 	width: 80%;
 	height: auto;
-	margin-top: 50%;
+	padding-top: 25%;
+	/* top: 500px; */
+	margin-top: 430px;
 	/* background-color: yellowgreen; */
+	transition: 0.5s ease;
 }
 
 .content-rght-part-4 {
 	display: flex;
 	flex-direction: column;
 	gap: 5vh;
-	opacity: 0;
+	opacity: 1;
 }
 
 .text-section {
