@@ -147,7 +147,7 @@ function changeText() {
         clickCount++;
     }
     else if(clickCount == 6) {
-        document.getElementById("textcnt").style.marginTop = '-179%';
+        document.getElementById("textcnt").style.marginTop = '-177%';
         clickCount++;
     }
     // else {
