@@ -123,31 +123,31 @@ var clickCount = 0;
 function changeText() {
     
     if(clickCount == 0) {
-        document.getElementById("textcnt").style.marginTop = '0%';
+        document.getElementById("textcnt").style.marginTop = '0%'; 
         clickCount++;
     }
     else if(clickCount == 1) {
-        document.getElementById("textcnt").style.marginTop = '-29%';
+        document.getElementById("textcnt").style.marginTop = '-35%';
         clickCount++;
     }
     else if(clickCount == 2) {
-        document.getElementById("textcnt").style.marginTop = '-59%';
+        document.getElementById("textcnt").style.marginTop = '-70%';
         clickCount++;
     }
     else if(clickCount == 3) {
-        document.getElementById("textcnt").style.marginTop = '-89%';
+        document.getElementById("textcnt").style.marginTop = '-105%';
         clickCount++;
     }
     else if(clickCount == 4) {
-        document.getElementById("textcnt").style.marginTop = '-119%';
+        document.getElementById("textcnt").style.marginTop = '-140%';
         clickCount++;
     }
     else if(clickCount == 5) {
-        document.getElementById("textcnt").style.marginTop = '-149%';
+        document.getElementById("textcnt").style.marginTop = '-175%';
         clickCount++;
     }
     else if(clickCount == 6) {
-        document.getElementById("textcnt").style.marginTop = '-177%';
+        document.getElementById("textcnt").style.marginTop = '-210%';
         clickCount++;
     }
     // else {
